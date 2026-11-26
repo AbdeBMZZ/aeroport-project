@@ -15,11 +15,16 @@ all: template
 template: main-template.c airport.c airport.h
 	$(CC) $(CFLAGS) -o $@ main-template.c airport.c $(LDLIBS)
 
-# Delete the built file (cmd: "make clean")
+# Same program with the shorter test values (cmd: "make fast")
+FAST_FLAGS = -DSTEP_TIME=100ULL -DJITTER=20ULL -DOPENING_STEPS=36 -DARRIVAL_MIN_INTERVAL=6
+fast: main-template.c airport.c airport.h
+	$(CC) $(CFLAGS) $(FAST_FLAGS) -o template-fast main-template.c airport.c $(LDLIBS)
+
+# Delete the built files (cmd: "make clean")
 clean:
-	rm -f template
+	rm -f template template-fast
 
 # These commands do not correspond to files
 # When running "make template", it won't do anything if "template" exists
 # These will run even if "all" or "clean" exists as files.
-.PHONY: all clean
+.PHONY: all clean fast

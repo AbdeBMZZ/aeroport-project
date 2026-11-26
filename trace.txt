@@ -1,0 +1,161 @@
+Schedule over a hyperperiod of 12 slots: I A A N I N N A A I - -
+[  0.000 s] Airport open for 120 slots of 500 ms (random seed 426256).
+[  0.000 s] Inspection step
+[  0.500 s] Landing slot 1: no plane waiting
+[  1.000 s] Landing slot 2: no plane waiting
+[  1.500 s] Plowing step
+[  2.000 s] Deadline: Inspection 1/1 step(s) in period 0
+[  2.000 s] Inspection step
+[  2.500 s] Plowing step
+[  3.000 s] Plowing step
+[  3.500 s] Landing slot 7: no plane waiting
+[  4.000 s] Deadline: Inspection 1/1 step(s) in period 1
+[  4.000 s] Landing slot 8: no plane waiting
+[  4.500 s] Inspection step
+[  6.000 s] Deadline: Plowing 3/3 step(s) in period 0
+[  6.000 s] Inspection step
+[  6.000 s] Deadline: Inspection 1/1 step(s) in period 2
+[  6.500 s] Landing slot 13: no plane waiting
+[  7.000 s] Landing slot 14: no plane waiting
+[  7.500 s] Plowing step
+[  8.000 s] Deadline: Inspection 1/1 step(s) in period 3
+[  8.000 s] Inspection step
+[  8.500 s] Plowing step
+[  9.000 s] Plowing step
+[  9.500 s] Landing slot 19: no plane waiting
+[ 10.000 s] Deadline: Inspection 1/1 step(s) in period 4
+[ 10.000 s] Landing slot 20: no plane waiting
+[ 10.500 s] Inspection step
+[ 10.738 s] Plane arrived (1 waiting)
+[ 12.000 s] Deadline: Plowing 3/3 step(s) in period 1
+[ 12.000 s] Inspection step
+[ 12.000 s] Deadline: Inspection 1/1 step(s) in period 5
+[ 12.500 s] Landing step
+[ 13.000 s] Landing step
+[ 13.401 s] Plane landed (0 waiting)
+[ 13.500 s] Plowing step
+[ 14.000 s] Deadline: Inspection 1/1 step(s) in period 6
+[ 14.000 s] Inspection step
+[ 14.500 s] Plowing step
+[ 15.000 s] Plowing step
+[ 15.500 s] Landing slot 31: no plane waiting
+[ 16.000 s] Deadline: Inspection 1/1 step(s) in period 7
+[ 16.000 s] Landing slot 32: no plane waiting
+[ 16.500 s] Inspection step
+[ 18.000 s] Deadline: Plowing 3/3 step(s) in period 2
+[ 18.000 s] Inspection step
+[ 18.000 s] Deadline: Inspection 1/1 step(s) in period 8
+[ 18.500 s] Landing slot 37: no plane waiting
+[ 19.000 s] Landing slot 38: no plane waiting
+[ 19.500 s] Plowing step
+[ 19.800 s] Plane arrived (1 waiting)
+[ 20.000 s] Deadline: Inspection 1/1 step(s) in period 9
+[ 20.000 s] Inspection step
+[ 20.500 s] Plowing step
+[ 21.000 s] Plowing step
+[ 21.500 s] Landing step
+[ 22.000 s] Deadline: Inspection 1/1 step(s) in period 10
+[ 22.000 s] Landing step
+[ 22.451 s] Landing step interrupted after 450 ms: go-around (1 waiting)
+[ 22.451 s] Watchdog: landing step aborted in slot 44, landing restarts
+[ 22.500 s] Inspection step
+[ 24.000 s] Deadline: Plowing 3/3 step(s) in period 3
+[ 24.000 s] Inspection step
+[ 24.000 s] Deadline: Inspection 1/1 step(s) in period 11
+[ 24.500 s] Landing step
+[ 25.000 s] Landing step
+[ 25.401 s] Plane landed (0 waiting)
+[ 25.500 s] Plowing step
+[ 26.000 s] Deadline: Inspection 1/1 step(s) in period 12
+[ 26.000 s] Inspection step
+[ 26.500 s] Plowing step
+[ 27.000 s] Plowing step
+[ 27.500 s] Landing slot 55: no plane waiting
+[ 28.000 s] Deadline: Inspection 1/1 step(s) in period 13
+[ 28.000 s] Landing slot 56: no plane waiting
+[ 28.500 s] Inspection step
+[ 29.163 s] Plane arrived (1 waiting)
+[ 30.000 s] Deadline: Plowing 3/3 step(s) in period 4
+[ 30.000 s] Inspection step
+[ 30.000 s] Deadline: Inspection 1/1 step(s) in period 14
+[ 30.500 s] Landing step
+[ 31.000 s] Landing step
+[ 31.401 s] Plane landed (0 waiting)
+[ 31.500 s] Plowing step
+[ 32.000 s] Deadline: Inspection 1/1 step(s) in period 15
+[ 32.000 s] Inspection step
+[ 32.500 s] Plowing step
+[ 33.000 s] Plowing step
+[ 33.500 s] Landing slot 67: no plane waiting
+[ 34.000 s] Deadline: Inspection 1/1 step(s) in period 16
+[ 34.000 s] Landing slot 68: no plane waiting
+[ 34.500 s] Inspection step
+[ 36.000 s] Deadline: Plowing 3/3 step(s) in period 5
+[ 36.000 s] Inspection step
+[ 36.014 s] Deadline: Inspection 1/1 step(s) in period 17
+[ 36.500 s] Landing slot 73: no plane waiting
+[ 37.000 s] Landing slot 74: no plane waiting
+[ 37.500 s] Plowing step
+[ 38.000 s] Deadline: Inspection 1/1 step(s) in period 18
+[ 38.000 s] Inspection step
+[ 38.500 s] Plowing step
+[ 39.000 s] Plowing step
+[ 39.500 s] Landing slot 79: no plane waiting
+[ 40.000 s] Deadline: Inspection 1/1 step(s) in period 19
+[ 40.000 s] Landing slot 80: no plane waiting
+[ 40.185 s] Plane arrived (1 waiting)
+[ 40.500 s] Inspection step
+[ 42.000 s] Deadline: Plowing 3/3 step(s) in period 6
+[ 42.000 s] Inspection step
+[ 42.000 s] Deadline: Inspection 1/1 step(s) in period 20
+[ 42.500 s] Landing step
+[ 43.000 s] Landing step
+[ 43.401 s] Plane landed (0 waiting)
+[ 43.500 s] Plowing step
+[ 44.000 s] Deadline: Inspection 1/1 step(s) in period 21
+[ 44.000 s] Inspection step
+[ 44.500 s] Plowing step
+[ 45.000 s] Plowing step
+[ 45.500 s] Landing slot 91: no plane waiting
+[ 46.000 s] Deadline: Inspection 1/1 step(s) in period 22
+[ 46.000 s] Landing slot 92: no plane waiting
+[ 46.500 s] Inspection step
+[ 46.987 s] Plane arrived (1 waiting)
+[ 48.000 s] Deadline: Plowing 3/3 step(s) in period 7
+[ 48.000 s] Inspection step
+[ 48.002 s] Deadline: Inspection 1/1 step(s) in period 23
+[ 48.500 s] Landing step
+[ 48.951 s] Landing step interrupted after 450 ms: go-around (1 waiting)
+[ 48.952 s] Watchdog: landing step aborted in slot 97, landing restarts
+[ 49.000 s] Landing step
+[ 49.500 s] Plowing step
+[ 50.000 s] Deadline: Inspection 1/1 step(s) in period 24
+[ 50.000 s] Inspection step
+[ 50.500 s] Plowing step
+[ 51.000 s] Plowing step
+[ 51.500 s] Landing step
+[ 51.900 s] Plane landed (0 waiting)
+[ 52.000 s] Deadline: Inspection 1/1 step(s) in period 25
+[ 52.000 s] Landing slot 104: no plane waiting
+[ 52.500 s] Inspection step
+[ 54.000 s] Deadline: Plowing 3/3 step(s) in period 8
+[ 54.000 s] Inspection step
+[ 54.000 s] Deadline: Inspection 1/1 step(s) in period 26
+[ 54.500 s] Landing slot 109: no plane waiting
+[ 55.000 s] Landing slot 110: no plane waiting
+[ 55.500 s] Plowing step
+[ 56.000 s] Deadline: Inspection 1/1 step(s) in period 27
+[ 56.000 s] Inspection step
+[ 56.500 s] Plowing step
+[ 57.000 s] Plowing step
+[ 57.500 s] Landing slot 115: no plane waiting
+[ 58.000 s] Deadline: Inspection 1/1 step(s) in period 28
+[ 58.000 s] Landing slot 116: no plane waiting
+[ 58.325 s] Plane arrived (1 waiting)
+[ 58.500 s] Inspection step
+[ 60.000 s] Deadline: Plowing 3/3 step(s) in period 9
+[ 60.000 s] Deadline: Inspection 1/1 step(s) in period 29
+[ 60.000 s] End of the day: airport closed with 0 incident(s).
+[ 60.000 s] Planes: 6 arrived, 5 landed, 1 still waiting, 2 go-around(s).
+The day is over.
+Controller: 6 plane(s) arrived, 5 landed.
